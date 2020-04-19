@@ -2,8 +2,14 @@
 
 ## Instructions
 
-```sh
+```git
 git clone --recursive https://github.com/informatikk/latex-templates
+```
+
+### Updating dependency
+
+```bash
+git submodule foreach git pull origin master
 ```
 
 ## Credits
