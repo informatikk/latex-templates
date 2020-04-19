@@ -1,3 +1,3 @@
-[submodule "external"]
-  path = external
-  url = https://github.com/tudace/tuda_latex_templates/ 
+[submodule "tuda_latex_templates"]
+	path = tuda_latex_templates
+	url = https://github.com/tudace/tuda_latex_templates
