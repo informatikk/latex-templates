@@ -65,8 +65,8 @@ accentcolor=2d,
 ]{tudapub}
 ```
 
-```
-# in \begin{document}
+```tex
+% in \begin{document}
 \Metadata{
   author=Pascal Weiland,
   title=Kuchen Pub,
