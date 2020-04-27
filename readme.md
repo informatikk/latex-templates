@@ -216,6 +216,15 @@ compat=true
             \paragraph{Standard-Mengen}
 ```
 
+## Open in Overleaf
+
+using:
+
+```
+https://www.overleaf.com/docs?snip_uri[]=https://.../a.tex&snip_uri[]=https://.../b.tex
+&snip_name=proper_name.tex
+```
+
 ## About
 
 ### Files
