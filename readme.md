@@ -220,15 +220,9 @@ compat=true
 
 ### Exercise
 
-Files: 
+Bootstrap: 
 ```sh
-tudaexercise.cls
-tudafonts.sty
-tudarules.sty
-tudacolors.sty
-tudacolors.def
-tuda_logo.pdf
-tuda-pdfplots.sty
+cp {tudaexercise.cls, tudafonts.sty, tudarules.sty, tudacolors.sty, tudacolors.def, tuda_logo.pdf} ../mathe2_hausuebungen/
 ```
 
 Preamble: Document start:
@@ -271,7 +265,7 @@ Document: Body:
 
 Files:
 ```sh
-
+cp {tudapub.cls, tudafonts.sty, tudacolors.sty, tudacolors.def, tuda_logo.pdf} ../cer_cheatsheet/
 ```
 
 Preamble:
