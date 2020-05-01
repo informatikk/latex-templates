@@ -44,7 +44,7 @@ git submodule foreach git pull origin master
 \documentclass[
     ngerman,
     DIV=calc, % prevents Warning
-    type=intern, $ so no Metadata for PDF/A is required
+    type=intern, % so no Metadata for PDF/A is required
     class=report,
     marginpar=false,
     accentcolor=2d
