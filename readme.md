@@ -216,6 +216,131 @@ compat=true
             \paragraph{Standard-Mengen}
 ```
 
+## Packages
+
+### Exercise
+
+Files: 
+```sh
+tudaexercise.cls
+tudafonts.sty
+tudarules.sty
+tudacolors.sty
+tudacolors.def
+tuda_logo.pdf
+tuda-pdfplots.sty
+```
+
+Preamble: Document start:
+```tex
+\documentclass[
+  ngerman,
+  colorbacktitle,
+  color=2b,
+  colorback=false,
+  % accentcolor=2b,
+  compat=true
+]{tudaexercise}
+
+% ... siehe oben
+
+\title{Mathematik I für Informatik \\ 6. Übungsblatt}
+\author{Wascal Peiland \\ Pascal Weiland}
+\subtitle{Thema} % Optional
+\date{42. November 1337}
+
+% Übungs Nummer
+\setcounter{section}{6}
+```
+
+Document: Body:
+```tex
+\begin{task}{Wahrheitstabelle}
+  \begin{enumerate}[label=\alph{enumi})]
+    \setcounter{enumi}{1}
+    \item First
+    \item Second
+      \begin{enumerate}[label=\roman{enumii})]
+        \item Sub
+      \end{enumerate}
+  \end{enumerate}
+\end{task}
+```
+
+### Cheatsheet
+
+Files:
+```sh
+
+```
+
+Preamble:
+```tex
+\documentclass[
+  ngerman,
+  % a4paper, % drivial
+  DIV=calc, % prevents Warning
+  type=intern,
+  class=report,
+  marginpar=false,
+  accentcolor=2d, % nice blue
+]{tudapub}
+
+% ... siehe oben
+
+\title{Cheatsheet}
+\subject{Mathe}
+\author{Author}
+\subtitle{von Author}
+\publishers{Technische Universität Darmstadt}
+\date{\today}
+```
+
+### Cheatsheet extended
+
+Preamble:
+```tex
+\documentclass[
+  ngerman,
+% fontsize=11pt,
+%type=intern, % causes pdfa=false
+  marginpar=false,
+% class=report,
+  accentcolor=2d,
+% logofile=example-image
+]{tudapub}
+```
+
+Body:
+```tex
+\Metadata{
+  author=Pascal,
+  title=Mathe Pub,
+  subject=Cheatsheetp,
+  date=2020-13-37,
+  keywords=TU Darmstadt \sep Mathe \sep Cheatsheet
+}
+
+\title{Mathe I -- Cheatsheet}
+\subtitle{Lineare Algebra}
+\author{Pascal\thanks{Kuchen} \and Weiland}
+
+\maketitle
+
+\begin{abstract}
+  Fast vollständig.
+\end{abstract}
+
+\begin{abstract}[english]
+  in English.
+\end{abstract}
+
+\tableofcontents
+
+\section{Test}
+    Hello Test
+```
+
 ## Open in Overleaf
 
 using:
