@@ -1,3 +1,5 @@
+#!/usr/bin/env sh
+
 echo "🧹 Reset changes in submodule."
 sh scripts/reset_changes.sh
 
@@ -13,7 +15,10 @@ sh scripts/copy_files.sh
 echo "🚧 Resetting changes."
 sh scripts/reset_changes.sh
 
-echo "⬇️ Downloading TuDa Logo."
-sh scripts/download_logo.sh
+if [ ! -f tuda_logo.pdf ]; then
+  echo "⬇️ Downloading TuDa Logo."
+  sh scripts/download_logo.sh
+fi
+
 
 echo "✅ Finished"
