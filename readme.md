@@ -346,6 +346,14 @@ https://www.overleaf.com/docs?snip_uri[]=https://.../a.tex&snip_uri[]=https://..
 
 ## About
 
+### TUDA CI
+
+* https://www.intern.tu-darmstadt.de/media/medien_stabsstelle_km/services/medien_cd/das_bild_der_tu_darmstadt.pdf
+
+#### Colors
+
+* https://www.webteam.tu-darmstadt.de/hilfe/details_4992.de.jsp
+
 ### Files
 
 * .sty
